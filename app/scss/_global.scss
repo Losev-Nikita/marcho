@@ -1,4 +1,17 @@
+html, body {
+    height: 100%;
+}
+
 body {
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    flex-grow: 1;
+}
+
+body, a {
     font-size: 16px;
     line-height: 26px;
     color: $default;
