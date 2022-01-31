@@ -1,0 +1,25 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    flex-grow: 1;
+}
+
+body, a {
+    font-size: 16px;
+    line-height: 26px;
+    color: $default;
+    @extend %quicksand-500;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
